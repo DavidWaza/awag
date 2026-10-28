@@ -18,7 +18,7 @@ import prettierConfig from 'eslint-config-prettier';
  */
 export default tseslint.config(
   {
-    ignores: ['.next/**', 'node_modules/**', 'next-env.d.ts'],
+    ignores: ['.next/**', 'node_modules/**', 'next-env.d.ts', 'design-backup/**'],
   },
   ...tseslint.configs.recommended,
   {
